@@ -1,6 +1,6 @@
 # tequ-jetson-nx-setup
 
-
+Setup Jetson NX to boot from SSD drive. 
 
 Tested with:
 - NVIDIA Jetson NX Development Kit
@@ -22,7 +22,9 @@ Tested with:
 - Setup Micro-USB connection for terminal setup
 - https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit#setup
 
-### 4. Prepare the SSD
+### 4. Connect SSD drive
+
+### 5. Prepare the SSD
 Next we need to prepare the SSD for usage, so plug it in and follow the instructions.
 
 1. Install GParted on the machine 
@@ -49,7 +51,7 @@ gparted
 
 Now the SSD is ready for use.
 
-### 5. Copy Jetson OS to the SSD.
+### 6. Copy Jetson OS to the SSD.
 
 1. Clone project from jetsonhacks and move into the directory.
 
@@ -74,7 +76,7 @@ sudo reboot
 
 4. Reboot
 
-Now the Jetson will boot from the SSD. Remember that the Jetson Xavier NX still requires the SD card be plugged in.
+Now the Jetson will boot from the SSD. Remember that the Jetson Xavier NX still requires the SD card be plugged in. At the moment direct booting from NVMe is not supported.
 
 ### Sources
 - https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit#intro
