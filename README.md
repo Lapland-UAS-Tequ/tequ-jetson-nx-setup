@@ -30,6 +30,10 @@ Next we need to prepare the SSD for usage, so plug it in and follow the instruct
 1. Install GParted on the machine 
 
 ```
+sudo apt-get update 
+```
+
+```
 sudo apt install gparted
 ```
 
@@ -40,13 +44,11 @@ gparted
 ```
 
 3. When in GParted, select the SSD from the dropdown in the top right corner.
-
-4. When selected, go to Device and click on Create Partition Table and follow the given instructions.
-
+4. When selected, go to Device and click on Create Partition Table (gpt) and follow the given instructions.
 5. Now you can open the Disks app from the search menu.
 6. Then find and select your SSD from the list and press: Ctrl+F and click on format.
 7. You now should have the whole SSD as **Free Space**
-8. Now click on the **+** icon and create a partition with 16GB of free space, click next.
+8. Now click on the **+** icon and create a partition with at least 16GB of free space, click next.
 9. Then give it a name and click **Create**
 
 Now the SSD is ready for use.
@@ -57,7 +59,7 @@ Now the SSD is ready for use.
 
 ```
 cd /home/
-git clone https://github.com/jetsonhacks/rootOnNVMe.git
+sudo git clone https://github.com/jetsonhacks/rootOnNVMe.git
 cd /home/rootOnNVMe
 ```
 
