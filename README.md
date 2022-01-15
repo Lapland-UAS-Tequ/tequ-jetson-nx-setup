@@ -1,3 +1,9 @@
+This repository is developed in Fish-IoT project
+
+https://www.tequ.fi/en/project-bank/fish-iot/ 
+
+---
+
 # tequ-jetson-nx-setup
 
 Setup Jetson NX to boot from SSD drive. 
