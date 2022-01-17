@@ -49,13 +49,7 @@ sudo apt install gparted
 gparted
 ```
 
-3. When in GParted, select the SSD from the dropdown in the top right corner.
-4. When selected, go to Device and click on Create Partition Table (gpt) and follow the given instructions.
-5. Now you can open the Disks app from the search menu.
-6. Then find and select your SSD from the list and press: Ctrl+F and click on format.
-7. You now should have the whole SSD as **Free Space**
-8. Now click on the **+** icon and create a partition with at least 16GB of free space, click next.
-9. Then give it a name and click **Create**
+3. Create new empty formatted partition (ext4) to NVMe 
 
 Now the SSD is ready for use.
 
