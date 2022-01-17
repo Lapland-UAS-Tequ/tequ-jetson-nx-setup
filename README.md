@@ -59,7 +59,11 @@ Now the SSD is ready for use.
 
 ```
 cd /home/
+```
+```
 sudo git clone https://github.com/jetsonhacks/rootOnNVMe.git
+```
+```
 cd /home/rootOnNVMe
 ```
 
@@ -73,6 +77,8 @@ cd /home/rootOnNVMe
 
 ```
 ./setup-service.sh
+```
+```
 sudo reboot
 ```
 
