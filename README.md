@@ -2,8 +2,6 @@ This repository is developed in Fish-IoT project
 
 https://www.tequ.fi/en/project-bank/fish-iot/ 
 
----
-
 ------------------------------------------------------------------------------------
 
 This repository is deprecated. 
