@@ -4,6 +4,18 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 
 ---
 
+------------------------------------------------------------------------------------
+
+This repository is deprecated. 
+
+Since newer Jetpack releases preferred way is to connect NVME/SSD to Jetson Xavier Development Kit and flash directly to NVME/SSD using NVIDIA SDK Manager from Linux host machine.
+
+Please see following site:
+
+https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html
+
+------------------------------------------------------------------------------------
+
 # tequ-jetson-nx-setup
 
 Setup Jetson NX to boot from SSD drive. 
