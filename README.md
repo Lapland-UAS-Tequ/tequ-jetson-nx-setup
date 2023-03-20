@@ -4,8 +4,6 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 
 ------------------------------------------------------------------------------------
 
-This repository is deprecated. 
-
 Since newer Jetpack releases preferred way is to connect NVMe/SSD to NVIDIA Jetson NX Development Kit and flash directly to NVMe/SSD using NVIDIA SDK Manager from Linux host machine, for example, Ubuntu 20.04.
 
 Please see following site:
@@ -22,6 +20,10 @@ Tested with:
 - NVIDIA Jetson NX Development Kit
 - re_computer case - X86J4105
 - Western Digital WDS500G3X0C - WD Black™ SN750 NVMe™ SSD M.2 500GB PCIe Gen3 8 GB/s 
+
+- A203 Carrier board
+- Jetson Xavier NX 8 GB module, 16 GB EMMC
+
 
 ## Actions
 
