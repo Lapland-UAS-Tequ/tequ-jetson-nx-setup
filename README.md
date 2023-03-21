@@ -14,9 +14,7 @@ https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html
 
 # tequ-jetson-nx-setup
 
-Setup Jetson NX to boot from SSD drive. 
-
-Tested with following setups:
+Setup Jetson NX to boot from SSD drive. Tested with following setups:
 
 From SD-card to NVMe:
 - NVIDIA Jetson NX Development Kit
