@@ -38,7 +38,7 @@ From EMMC to NVMe:
 - Use for example Raspberry PI imager tool or NVIDIA SDK Manager
 
 ### 3. Connect display, mouse and keyboard
-- You can also use remote control eg. [NoMachine](https://www.nomachine.com)
+- You can also use remote control eg. [NoMachine](https://www.nomachine.com) if you dont have peripherals.
 
 ### 4. Connect external drive
 
